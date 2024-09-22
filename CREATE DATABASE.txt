@@ -1,0 +1,9 @@
+CREATE DATABASE mvc_pdo_crud;
+USE mvc_pdo_crud;
+
+CREATE TABLE products (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
